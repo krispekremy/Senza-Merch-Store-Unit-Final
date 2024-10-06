@@ -1,0 +1,96 @@
+{
+  "cart": [
+    {
+      "id": 0,
+      "productId": 2,
+      "amount": 3
+    },
+    {
+      "id": 1,
+      "productId": 1,
+      "amount": 2
+    }
+  ],
+  "merch": [
+    {
+      "id": 1,
+      "name": "T-Shirt",
+      "description": "100% cotton band logo t-shirt",
+      "sizes": "S, M, L, XL, XXL",
+      "price": 25,
+      "quantityInStock": 100,
+      "category": "Apparel",
+      "image": "https://f4.bcbits.com/img/0033471550_36.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Hat",
+      "description": "Snapback cap with embroidered band logo",
+      "sizes": "One Size Fits All",
+      "price": 20,
+      "quantityInStock": 50,
+      "category": "Accessories",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4AIQvVw0_BwZOZq7E1A41bwUf3H4Ob7lxOg&s"
+    },
+    {
+      "id": 3,
+      "name": "Patch",
+      "description": "Woven band logo patch for jackets or bags",
+      "sizes": "3x3 inches",
+      "price": 5,
+      "quantityInStock": 200,
+      "category": "Accessories",
+      "image": "https://assets.bigcartel.com/product_images/372305269/3906il_fullxfull.5537101685_e93g.jpg?auto=format&fit=max&w=1500"
+    },
+    {
+      "id": 4,
+      "name": "Sticker",
+      "description": "High-quality vinyl band logo sticker",
+      "sizes": "2x2 inches",
+      "price": 2,
+      "quantityInStock": 500,
+      "category": "Accessories",
+      "image": "https://images.squarespace-cdn.com/content/v1/51f9e29ee4b0d46ee28f3709/1663123904987-BVKEPQ8QODUN2AFP7CMK/20220827_000426.jpg?format=1000w"
+    },
+    {
+      "id": 5,
+      "name": "Hoodie",
+      "description": "Pullover hoodie with band logo",
+      "sizes": "S, M, L, XL, XXL",
+      "price": 40,
+      "quantityInStock": 75,
+      "category": "Apparel",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLv57loqE4vekoHmUAOza1_agNjzYr5dbZaQ&s"
+    },
+    {
+      "id": 6,
+      "name": "Even A Worm Will Turn 12inch LP",
+      "description": "The band's critically acclaimed 2019 debut LP!",
+      "sizes": "12 inch",
+      "price": 30,
+      "quantityInStock": 30,
+      "category": "Music",
+      "image": "https://i.discogs.com/vfJ0fBFgkSTxfnBSOUvMT-JoVJjyeEblsshmDbCrdy4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MDUx/MzkzLTE1NjY4Njgx/ODgtOTczMS5qcGVn.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Poster",
+      "description": "Senza's 2024 Tour Poster with band Naedr from Singapore!",
+      "sizes": "18x24 inches",
+      "price": 10,
+      "quantityInStock": 150,
+      "category": "Accessories",
+      "image": "https://cdn-asia.uniteasia.org/uploads/2024/03/e4b15351-naedr-1024x1024.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Even A Worm Will Turn Cassette Tape",
+      "description": "Limited edition bird hand painted cassette tape",
+      "sizes": "8th inch",
+      "price": 20,
+      "quantityInStock": 20,
+      "category": "Music",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxFXBVkxh9WLjVizuNajUDlMbA-sNTv-CcYw&s"
+    }
+  ]
+}
