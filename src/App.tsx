@@ -1,9 +1,9 @@
 import "./index.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import Home from "./Home.tsx";
+import Home from "./components/Home.tsx";
 import NavBar from "./components/NavBar";
-import MerchList from "./MerchList.tsx";
+import MerchList from "./components/MerchList.tsx";
 import Cart from "./components/Cart.tsx";
 import type { CartItem, Merch } from "./types.ts";
 import { useEffect, useState } from "react";

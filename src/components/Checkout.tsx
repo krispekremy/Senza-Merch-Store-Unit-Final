@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Button, Modal } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { CartItem } from "../types";
+import ThankYouModal from "./ThankYouModal"; // Import the new modal
 
 type CheckoutProps = {
   setCart: (newValue: CartItem[]) => void;
@@ -149,21 +149,7 @@ export default function Checkout({ setCart }: CheckoutProps) {
         </button>
       </form>
 
-      {/* Modal */}
-      <Modal show={showModal} onHide={handleCloseModal}>
-        <Modal.Header closeButton>
-          <Modal.Title>Thank You!</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          Thank you for your order! Your shipping information has been
-          submitted.
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="primary" onClick={handleCloseModal}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal>
+      <ThankYouModal show={showModal} onClose={handleCloseModal} />
     </div>
   );
 }

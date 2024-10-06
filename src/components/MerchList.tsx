@@ -1,6 +1,6 @@
-import MerchCard from "./components/MerchCard";
-import type { CartItem, Merch } from "./types";
-import "./App.css";
+import MerchCard from "./MerchCard";
+import type { CartItem, Merch } from "../types";
+import "../App.css";
 
 type Props = {
   setCart: (newValue: CartItem[]) => void;
